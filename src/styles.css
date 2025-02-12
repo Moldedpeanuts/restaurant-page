@@ -26,15 +26,22 @@ body {
 
 .button {
     background-color: #815AC0;
-    color: #E8E5D6;
     padding: 10px 20px;
     border-radius: 1.5em;
     box-shadow: 4px 6px #2E2A47;
     font-weight: 600;
     font-size: 0.9em;
+    color: #E8E5D6;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+}
+
+
+.home-title {
+    font-size: 2.7em;
+    text-align: center;
+    margin-top: 27px;
 }
