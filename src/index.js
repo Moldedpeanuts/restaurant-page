@@ -1,1 +1,1 @@
-console.log("Hello test");
+const contentDiv = document.querySelector(".content");
