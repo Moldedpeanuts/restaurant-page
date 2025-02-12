@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 ul {
     list-style-type: none;
 }
@@ -19,6 +21,7 @@ body {
     color: #E8E5D6;
     width: 50vw;
     height: 100vh;
+    font-family: "Poppins", sans-serif;
 }
 
 .button {
@@ -26,6 +29,9 @@ body {
     color: #E8E5D6;
     padding: 10px 20px;
     border-radius: 1.5em;
+    box-shadow: 4px 6px #2E2A47;
+    font-weight: 600;
+    font-size: 0.9em;
 }
 
 nav {
