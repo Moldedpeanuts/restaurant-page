@@ -11,6 +11,7 @@ export function loadHome() {
     contentDiv.appendChild(homeTitle);
     
     const descriptionDiv = document.createElement("div");
+    descriptionDiv.setAttribute("class", "description")
     contentDiv.appendChild(descriptionDiv);
 }
 
