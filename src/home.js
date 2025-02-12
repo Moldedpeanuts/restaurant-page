@@ -1,6 +1,6 @@
 import { contentDiv } from "./index.js";
 
-function loadHome() {
+export function loadHome() {
     const homeSection = document.createElement("section");
-    document.append
+    contentDiv.appendChild(homeSection);
 }
