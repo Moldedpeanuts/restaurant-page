@@ -19,7 +19,6 @@ body {
     color: #E8E5D6;
     width: 50vw;
     height: 100vh;
-    border: 1px solid red;
 }
 
 .button {
@@ -27,4 +26,9 @@ body {
     color: #E8E5D6;
     padding: 10px 20px;
     border-radius: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
