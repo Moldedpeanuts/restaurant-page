@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    background-color: #2E2A47;
+}
+
+body {
+    background-color: #4A4266;
+    color: #E8E5D6;
+    width: 50vw;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.button {
+    background-color: #815AC0;
+    color: #E8E5D6;
+    padding: 10px 20px;
+    border-radius: 1.5em;
+}
