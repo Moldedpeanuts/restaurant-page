@@ -1,4 +1,4 @@
-export const contentDiv = document.querySelector(".content");
+export const contentDiv = document.querySelector("#content");
 import { loadHome } from "./home";
 
 document.addEventListener("DOMContentLoaded", () => {
