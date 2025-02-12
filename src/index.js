@@ -1,1 +1,1 @@
-const contentDiv = document.querySelector(".content");
+export const contentDiv = document.querySelector(".content");
