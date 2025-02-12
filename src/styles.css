@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.5;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
@@ -44,4 +45,9 @@ nav {
     font-size: 2.7em;
     text-align: center;
     margin-top: 27px;
+}
+
+.description p {
+    padding: 5em;
+    width: 0 auto;
 }
