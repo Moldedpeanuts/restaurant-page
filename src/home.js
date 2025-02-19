@@ -1,8 +1,8 @@
 import { contentDiv } from "./index.js";
 
 export function loadHome() {
-    const contentDiv = document.querySelector("#content");
-    contentDiv.innerHTML = 
+    const homeDiv = document.createElement("div");
+    homeDiv.innerHTML = 
         `
             <section class="home">
                 <h1 class="home-title">Winkie's</h1>
@@ -36,5 +36,6 @@ export function loadHome() {
                 </div>
             </section>
         `;
+    contentDiv.appendChild(homeDiv);
 }
 
