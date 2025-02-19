@@ -2,7 +2,7 @@ export const contentDiv = document.querySelector("#content");
 import { loadHome } from "./home.js";
 import './styles.css';
 import { loadMenu } from "./menu.js";
-import { loadContact } from "./contact";
+import { loadContact } from "./contact.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     loadHome();
