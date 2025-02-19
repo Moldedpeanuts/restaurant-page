@@ -13,20 +13,19 @@ module.exports = {
     devServer: {
         static: path.resolve(__dirname, 'dist'),
         watchFiles: ['./src/template.html'],
-        open: true,
-        port: 8080,
+        
     },
     module: {
         rules: [
             {
                 test: /\.css$/i,
-                use: ["style-loader", "css-loader"],
+                use: ["style-loader", "css-loader"]
             }
         ],
     },
     plugins: [
         new HtmlWebpackPlugin ({
-            template: './src/template.html',
+            template: './src/template.html'
         }),
     ],
 };
