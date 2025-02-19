@@ -54,3 +54,11 @@ nav {
     padding: 5em;
     width: 0 auto;
 }
+
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
