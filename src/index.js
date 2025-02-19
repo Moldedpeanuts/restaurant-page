@@ -1,6 +1,7 @@
 export const contentDiv = document.querySelector("#content");
-import { loadHome } from "./home";
+import { loadHome } from "./home.js";
 import './styles.css';
+import { loadMenu } from "./menu.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     loadHome();
@@ -14,3 +15,9 @@ homeBtn.addEventListener('click', () => {
     loadHome();
 }); 
 
+const menuBtn = document.getElementById("menu");
+
+menuBtn.addEventListener('click', () => {
+    contentDiv.textContent = '';
+    loadMenu();
+});
