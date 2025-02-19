@@ -83,8 +83,12 @@ h1 {
 .item {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin-bottom: 2em;
-    padding: 2em;
+    gap: 1em;
+    margin-bottom: 1em;
+    padding: 1.5em;
+}
+
+.menu h2 {
+    padding-left: 0.7em;
 }
 
