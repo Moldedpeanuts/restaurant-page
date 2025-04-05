@@ -42,3 +42,29 @@ The project demonstrates several skills:
 - **GitHub Pages**: Deployment.
 
 
+
+## How to Use
+
+To view and interact with the restaurant page, follow these steps:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Moldedpeanuts/restaurant-page.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd restaurant-page
+```
+
+3. Install dependencies using npm:
+```bash
+npm install
+```
+
+4. Run the development server:
+```bash
+npx webpack serve
+```
+
+5. Open your browser and go to http://localhost:8080 to see the page.
