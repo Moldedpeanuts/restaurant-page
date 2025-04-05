@@ -68,3 +68,19 @@ npx webpack serve
 ```
 
 5. Open your browser and go to http://localhost:8080 to see the page.
+
+
+## Project Structure
+```graphql
+restaurant-page/
+├── dist/                 # Bundled project files for production
+├── src/                  # Source files for the project
+│   ├── index.js          # Main entry file for JavaScript
+│   ├── modules/          # Folder containing different modules (e.g. homepage, menu, contact)
+│   ├── template.html     # HTML template
+│   └── style.css         # CSS file for styling
+├── .gitignore            # Gitignore file for ignoring node_modules and dist
+├── package.json          # Project configuration and dependencies
+└── webpack.config.js     # Webpack configuration file
+```
+
