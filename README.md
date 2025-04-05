@@ -4,7 +4,7 @@ This project is a dynamic restaurant homepage built using JavaScript, showcasing
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Features] (#features)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
 - [Project Structure](#project-structure)
@@ -20,17 +20,24 @@ The Restaurant Page is a single-page web app that simulates a restaurant homepag
 
 The project demonstrates several skills:
 - **DOM Manipulation**: Using JavaScript to dynamically create and display content.
+
 - **Modularization**: Organizing the code into separate modules for different sections of the page.
+
 - **Webpack Setup**: Utilizing Webpack to bundle the project and run the development server.
+
 - **Responsive Design**: Ensuring the site is responsive and works well on all screen sizes.
+
 - **Deployment**: Deploying the project to GitHub Pages.
 
 
 ## Features
 
 - **Dynamic Content Rendering** : All content is created dynamically using JavaScript, ensuring flexibility and modularity.
+
 - **Tabbed Navigation**: The website includes navigation tabs that let users switch between different sections, such as the homepage, menu and contact page.
+
 - **Responsive Layout**: The website is designed to be mobile-friendly, adapting well to different screen sizes.
+
 - **Webpack Integration**: The project is bundled and served using Webpack, providing an optimized build process.
 
 
@@ -71,6 +78,7 @@ npx webpack serve
 
 
 ## Project Structure
+
 ```graphql
 restaurant-page/
 ├── dist/                 # Bundled project files for production
@@ -83,4 +91,29 @@ restaurant-page/
 ├── package.json          # Project configuration and dependencies
 └── webpack.config.js     # Webpack configuration file
 ```
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm (Node Package Manager) installed. You can download and install them from https://nodejs.org/en Node.js official website.
+
+### Install Dependencies
+
+After cloning the project, run the following command to install the necessary dependencies:
+```bash
+npm install
+```
+
+### Run Development Server
+
+To start a local development server, use the following command:
+```bash
+npx webpack serve
+```
+
+This will bundle the project files and open a development server at http://localhost:8080.
+
+
 
