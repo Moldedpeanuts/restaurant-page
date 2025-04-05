@@ -1,10 +1,16 @@
-# restaurant-page
-An interactive restaurant webpage built with JavaScript and Webpack. 
+# Restaurant Page (with Webpack)
+This project is a dynamic restaurant homepage built using JavaScript, showcasing DOM manipulation code. It was created as part of a Webpack-based project setup and is intended to serve as a basic example of a restaurant website with tabbed navigation. This project uses Webpack, JavaScript, HTML and CSS to dynamically render the content of the website.
 
-## Steps
-1. Firstly we set up the project with checking our gitignore file to ignore files like node_modules and dist.
-2. We will then install Webpack locally inside our directory, using the appropriate developer dependency flag "--save-dev".
-3. We need to configure our webpack.config.js file in our root directory.
-4. We make a src directory for our source files (HTML, CSS , JavaScript) which will contain our source code.
-5. Inside our src directory we create a template.html file which will be our template HTML.
-6. We are also adding an index.js file in our src directory with our JS inside.
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features] (#features)
+- [Tecnologies Used](#technologies-used)
+- [How to Use](#how-to-use)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Future Improvements](#future-improvements)
+- [Acknowledgements](#ackgnowledgements)
+
+
