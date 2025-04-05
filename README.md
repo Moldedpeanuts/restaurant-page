@@ -154,3 +154,9 @@ git checkout main
 - **Backend Integration**: Integrate a backend to handle contact form submissions and store menu data dynamically.
 
 
+## Acknowledgements
+
+- This project was created as part of The Odin Project's Full Stack JavaScript curriculum.
+- Inspired by real-world restaurant websites and the need to build dynamic interactive web pages.
+
+
