@@ -14,3 +14,15 @@ This project is a dynamic restaurant homepage built using JavaScript, showcasing
 - [Acknowledgements](#ackgnowledgements)
 
 
+## Project Overview
+
+The Restaurant Page is a single-page web app that simulates a restaurant homepage with dynamic tabbed content. The homepage displays the restaurant's introductory content, while additional "tabs" such as "Menu" and "Contact" allow users to navigate different sections. The content for each tab is generated dynamically using JavaScript, and the user interface is styled with CSS.
+
+The project demonstrates several skills:
+- DOM Manipulation: Using JavaScript to dynamically create and display content.
+- Modularization: Organizing the code into separate modules for different sections of the page.
+- Webpack Setup: Utilizing Webpack to bundle the project and run the development server.
+- Responsive Design: Ensuring the site is responsive and works well on all screen sizes.
+- Deployment: Deploying the project to GitHub Pages.
+
+
