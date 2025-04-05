@@ -116,4 +116,32 @@ npx webpack serve
 This will bundle the project files and open a development server at http://localhost:8080.
 
 
+## Deployment
+The project is deployed to GitHub Pages. To deploy your own version of the project, follow these steps:
+1. Make sure you have completed the setup and committed all your changes.
+2. Create a new branch for deployment:
+```bash
+git branch gh-pages
+git checkout gh-pages
+```
+
+3. Bundle the project for production:
+```bash
+npx webpack
+```
+
+4. Deploy the `dist` directory to GitHub pages:
+```bash
+git add dist -f && git commit -m "Deployment commit"
+git subtree push --prefix dist origin gh-pages
+```
+
+5. Switch back to the main brach:
+```bash
+git checkout main
+```
+
+6. Set the source branch for GitHub Pages to `gh-pages` in your repository settings.
+
+
 
