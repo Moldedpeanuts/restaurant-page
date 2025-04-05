@@ -144,4 +144,13 @@ git checkout main
 6. Set the source branch for GitHub Pages to `gh-pages` in your repository settings.
 
 
+## Future Improvements
+
+- **Enhanced Design** : Improve visual styling.
+- **Menu Details** : Add detailed information for reach menu item, including images and descriptions.
+- **Contact Form**: Implement a contact form that allows users to send messages directly to the restaurant.
+- **Search Functionality**: Add a search bar to allow users to search for menu items.
+- **Local Storage**: Implement local storage to persist user interactions or selections.
+- **Backend Integration**: Integrate a backend to handle contact form submissions and store menu data dynamically.
+
 
