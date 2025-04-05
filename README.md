@@ -5,7 +5,7 @@ This project is a dynamic restaurant homepage built using JavaScript, showcasing
 
 - [Project Overview](#project-overview)
 - [Features] (#features)
-- [Tecnologies Used](#technologies-used)
+- [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
@@ -32,5 +32,13 @@ The project demonstrates several skills:
 - **Tabbed Navigation**: The website includes navigation tabs that let users switch between different sections, such as the homepage, menu and contact page.
 - **Responsive Layout**: The website is designed to be mobile-friendly, adapting well to different screen sizes.
 - **Webpack Integration**: The project is bundled and served using Webpack, providing an optimized build process.
+
+
+## Technologies Used
+
+- **HTML and CSS**: Structure, styling and responsiveness.
+- **JavaScript(ES6+)**: DOM Manipulation, event handling and creating dynamic content.
+- **Webpack**: Bundling the project files and running a local development server.
+- **GitHub Pages**: Deployment.
 
 
