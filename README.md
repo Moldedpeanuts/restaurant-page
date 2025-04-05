@@ -1,6 +1,9 @@
 # Restaurant Page (with Webpack)
 This project is a dynamic restaurant homepage built using JavaScript, showcasing DOM manipulation code. It was created as part of a Webpack-based project setup and is intended to serve as a basic example of a restaurant website with tabbed navigation. This project uses Webpack, JavaScript, HTML and CSS to dynamically render the content of the website.
 
+
+
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -12,6 +15,10 @@ This project is a dynamic restaurant homepage built using JavaScript, showcasing
 - [Deployment](#deployment)
 - [Future Improvements](#future-improvements)
 - [Acknowledgements](#ackgnowledgements)
+
+
+
+
 
 
 ## Project Overview
@@ -30,6 +37,10 @@ The project demonstrates several skills:
 - **Deployment**: Deploying the project to GitHub Pages.
 
 
+
+
+
+
 ## Features
 
 - **Dynamic Content Rendering** : All content is created dynamically using JavaScript, ensuring flexibility and modularity.
@@ -41,12 +52,19 @@ The project demonstrates several skills:
 - **Webpack Integration**: The project is bundled and served using Webpack, providing an optimized build process.
 
 
+
+
+
+
 ## Technologies Used
 
 - **HTML and CSS**: Structure, styling and responsiveness.
 - **JavaScript(ES6+)**: DOM Manipulation, event handling and creating dynamic content.
 - **Webpack**: Bundling the project files and running a local development server.
 - **GitHub Pages**: Deployment.
+
+
+
 
 
 
@@ -77,6 +95,8 @@ npx webpack serve
 5. Open your browser and go to http://localhost:8080 to see the page.
 
 
+
+
 ## Project Structure
 
 ```graphql
@@ -93,11 +113,18 @@ restaurant-page/
 ```
 
 
+
+
+
 ## Getting Started
+
+
 
 ### Prerequisites
 
 - Node.js and npm (Node Package Manager) installed. You can download and install them from https://nodejs.org/en Node.js official website.
+
+
 
 ### Install Dependencies
 
@@ -105,6 +132,9 @@ After cloning the project, run the following command to install the necessary de
 ```bash
 npm install
 ```
+
+
+
 
 ### Run Development Server
 
@@ -114,6 +144,9 @@ npx webpack serve
 ```
 
 This will bundle the project files and open a development server at http://localhost:8080.
+
+
+
 
 
 ## Deployment
@@ -144,6 +177,8 @@ git checkout main
 6. Set the source branch for GitHub Pages to `gh-pages` in your repository settings.
 
 
+
+
 ## Future Improvements
 
 - **Enhanced Design** : Improve visual styling.
@@ -152,6 +187,8 @@ git checkout main
 - **Search Functionality**: Add a search bar to allow users to search for menu items.
 - **Local Storage**: Implement local storage to persist user interactions or selections.
 - **Backend Integration**: Integrate a backend to handle contact form submissions and store menu data dynamically.
+
+
 
 
 ## Acknowledgements
